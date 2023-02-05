@@ -401,7 +401,7 @@ p#id-selector-2 {
 
 @media (min-width: 0px)
 and (max-width: 600px) {
-    body {
+    .wd-media-body {
         background-color: cyan;
     }
     .media-query {
@@ -411,7 +411,7 @@ and (max-width: 600px) {
 }
 @media (min-width: 600px)
 and (max-width: 1200px) {
-    body {
+    .wd-media-body {
         background-color: lightcoral;
         color: black;
     }
@@ -422,7 +422,7 @@ and (max-width: 1200px) {
 }
 @media (min-width: 1200px)
 and (max-width: 1800px) {
-    body {
+    .wd-media-body {
         background-color: red;
         color: white;
     }
@@ -433,7 +433,7 @@ and (max-width: 1800px) {
 }
 @media(width: 1200px)
 {
-    body {
+    .wd-media-body {
         background-color: white;
         color: black;
     }
@@ -443,8 +443,17 @@ and (max-width: 1800px) {
     }
 }
 
-.padding-all-5px{
+.wd-padding-all-5px{
     padding: 5px;
+}
+
+.wd-media-div{
+    padding: 5px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
 }
 
 
