@@ -1,0 +1,49 @@
+.wd-bookmark-heading{
+    font-size: 20px;
+    color: white;
+}
+
+.wd-user-handle{
+    font-size: 13px;
+    color: rgb(110, 118, 125)
+}
+
+.wd-avatar{
+    border-radius: 24px;
+}
+
+.wd-max-width-506px{
+    max-width: 506px;
+}
+
+.wd-border-top-rounded-12px{
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.wd-border-bottom-rounded-12px{
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.wd-lightgray-border{
+    border-color: rgb(47, 51, 54);
+    border-style: solid;
+    border-width: 1px;
+}
+
+.wd-like-share-retweet-grid-col{
+    width: 25%;
+    float: left;
+    color: rgb(110, 118, 125);
+    font-size: 13px;
+}
+
+.wd-like-symbol-red{
+    color: red;
+}
+
+.wd-hz-gap-12px{
+    display: inline-block;
+    width: 12px;
+}

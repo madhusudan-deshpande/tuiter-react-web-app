@@ -1,0 +1,92 @@
+.wd-main-container {
+    margin-left: 16px;
+    background-color: black;
+    padding: 10px;
+    color: white;
+    min-height: 1px;
+    overflow: hidden;
+}
+
+.wd-section-container {
+    border-color: rgb(47, 51, 54);
+    border-style: solid;
+    border-width: 1px;
+    min-height: 1px;
+    overflow: hidden;
+}
+
+.wd-div-display-inline{
+    display: inline-block;
+}
+
+.wd-div-align-top{
+    vertical-align: top;
+}
+
+.wd-padding-left-16px{
+    padding-left: 16px;
+}
+
+.wd-padding-top-12px{
+    padding-top: 12px
+}
+
+.wd-padding-bottom-12px{
+    padding-bottom: 12px;
+}
+
+.wd-margin-right-12px{
+    margin-right: 12px;
+}
+
+.wd-margin-right-16px{
+    margin-right: 16px;
+}
+
+.wd-margin-bottom-12px{
+    margin-bottom: 12px;
+}
+
+.wd-margin-top-12px{
+    margin-top: 12px;
+}
+
+.wd-font-size-13px{
+    font-size: 13px;
+}
+
+.wd-font-size-14px{
+    font-size: 14px;
+}
+
+.wd-font-size-15px{
+    font-size: 15px;
+}
+
+.wd-font-color-white{
+    color: white;
+}
+
+.wd-font-color-gray{
+    color: rgb(110, 118, 125);
+}
+
+.wd-font-color-red{
+    color: red;
+}
+
+.wd-font-bold{
+    font-weight: bold;
+}
+
+.wd-padding-12px{
+    padding: 12px;
+}
+
+.wd-display-block{
+    display: block;
+}
+
+.wd-hyperlink-no-underline{
+    text-decoration: none;
+}
