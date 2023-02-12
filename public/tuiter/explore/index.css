@@ -1,42 +1,29 @@
 .wd-search-box {
-    background-color: rgb(32,35,39);
-    border-radius: 50px;
-    width: 90%;
+    background-color: white;
+    border-radius: 60px;
     padding: 5px;
     color: white;
 }
 
-.wd-blue-gear {
-    color: #1da1f2;
-    float: right;
-    margin-right: 12px;
-    font-size: 150%;
-}
-
-.wd-grid-col {
-    width: 13%;
-    float: left;
-    color: rgb(110, 118, 125);
-    font-size: 15px;
-    padding: 16px;
-}
-
-.wd-font-color-blue {
-    color: rgb(29,161,242);
-}
-
-.wd-bottom-border-blue {
-    border-bottom-style: solid;
-    border-bottom-color: rgb(29,161,242);
-}
-
-.wd-tweet-image{
-    float: right;
-    margin-right: 16px;
-    margin-bottom: 25px;
-    border-radius: 10px;
-}
-
 ::placeholder {
-    color: white;
+    color: rgb(110, 118, 125);
+    font-family: Arial;
+}
+
+.wd-btn-rounded {
+    border-radius : 60px;
+}
+
+.wd-img {
+    max-width: 80%;
+    max-height: 80%;
+    border-radius: 10%;
+}
+
+.wd-rounded-image{
+    border-radius: 100%;
+}
+
+a{
+    color:inherit;
 }
