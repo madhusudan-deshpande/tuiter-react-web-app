@@ -27,7 +27,7 @@ export default [
         userName: "NodeJS",
         title: "",
         time: "last month",
-        image: "../../images/nodejs.avif",
+        image: "../../images/nodejs.png",
         tweets: "120K",
     },
 ];
