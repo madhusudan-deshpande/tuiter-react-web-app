@@ -27,3 +27,16 @@
 a{
     color:inherit;
 }
+
+.wd-gray-background{
+    background-color: rgb(34,34,34);
+    border: none
+}
+
+.wd-img-text-color{
+    color: rgb(34,34,34)
+}
+
+.wd-border-radius-20px{
+    border-radius: 20px;
+}
