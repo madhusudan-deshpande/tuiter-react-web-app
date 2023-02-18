@@ -7,7 +7,7 @@ const NavigationSidebar = () => {
           </a>
     
           <a href="../HomeScreen/index.html" 
-             class="list-group-item list-group-item-action ${window.location.pathname === "/tuiter/homescreen" ? "active" : ""}">
+             class="list-group-item list-group-item-action ${window.location.pathname === "/tuiter/homescreen/" ? "active" : ""}">
             <div class="row">
               <div class="col-2">
                 <i class="fa-solid fa-house"></i>
@@ -19,7 +19,7 @@ const NavigationSidebar = () => {
           </a>
     
           <a href="../ExploreScreen/index.html" 
-             class="list-group-item list-group-item-action ${window.location.pathname === "/tuiter/explorescreen" ? "active" : ""}">
+             class="list-group-item list-group-item-action ${window.location.pathname === "/tuiter/explorescreen/" ? "active" : ""}">
             <div class="row">
               <div class="col-2">
                 <i class="fa-solid fa-hashtag"></i>
