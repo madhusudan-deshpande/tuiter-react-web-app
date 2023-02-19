@@ -15,6 +15,7 @@ function PostItem(post){
                         <span class="text-secondary">@${post.handle} &middot; ${post.time}</span>
                         <br/>
                         <span>${post.tuit}</span>
+                        ${post.tuitLink !== "" ? `<a class="wd-hyperlink-no-underline" href = "${post.tuitLink}">${post.tuitLink}</a>` : ""}
                     </div>
                     
                     <div class = "list-group wd-border-radius-10px">
@@ -25,6 +26,8 @@ function PostItem(post){
                             <span class="fw-bold img-fluid">${post.linkHeading}</span>
                             <br/>
                             <span>${post.linkDetails}</span>
+                            <br/>
+                            <a href="${post.link}" class="wd-hyperlink-no-underline text-secondary"><i class="fa-solid fa-link text-secondary"></i>${post.link}</a>
                         </div>    
                     </div>
                     
