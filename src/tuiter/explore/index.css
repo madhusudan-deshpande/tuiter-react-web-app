@@ -1,0 +1,11 @@
+.wd-search-box {
+    background-color: white;
+    border-radius: 60px;
+    padding: 5px;
+    color: white;
+}
+
+.wd-nudge-up {
+    bottom: 18px;
+    left: 25px;
+}
