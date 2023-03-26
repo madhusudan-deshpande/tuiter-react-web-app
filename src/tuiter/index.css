@@ -16,3 +16,30 @@
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
+
+.wd-profile-avatar{
+    bottom: -20%;
+    left: 0%
+}
+
+.wd-gray-image{
+    filter: grayscale(100%);
+}
+
+.wd-input-label-margins{
+    padding-top: 2px;
+    margin-left: 12px;
+    font-size: 13px;
+}
+
+.wd-textarea-label-margins{
+    margin-left: 12px;
+}
+
+.wd-form-control-height-60px{
+    height: 60px;
+}
+
+.wd-form-control-height-100px{
+    height: 100px;
+}

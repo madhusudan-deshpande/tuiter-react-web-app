@@ -7,14 +7,16 @@ const NavigationSidebar = () => {
 
     let active = "";
     switch(pathname) {
-      case "/tuiter/home":
-      case "/tuiter":
-      case "/tuiter/":
-        active = "home";
-        break;
-      case "/tuiter/explore":
-        active = "explore";
-        break;
+        case "/tuiter/home":
+        case "/tuiter":
+        case "/tuiter/":
+            active = "home";
+            break;
+        case "/tuiter/explore":
+            active = "explore";
+            break;
+        case "/tuiter/profile":
+            active = "profile";  
     }
 
     return (
@@ -98,7 +100,7 @@ const NavigationSidebar = () => {
                     </div>
                 </a>
 
-                <a href="#"
+                <Link to="/tuiter/profile"
                    className={`list-group-item list-group-item-action ${active === "profile" ? "active" : ""}`}>
                     <div className="row">
                         <div className="col-2">
@@ -108,7 +110,7 @@ const NavigationSidebar = () => {
                             <span>Profile</span>
                         </div>
                     </div>
-                </a>
+                </Link>
 
                 <a href="#"
                    className={`list-group-item list-group-item-action ${active === "more" ? "active" : ""}`}>

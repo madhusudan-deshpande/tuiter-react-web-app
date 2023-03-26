@@ -38,7 +38,7 @@ return(
                 
                 <input
                     onChange={todoChangeHandler}
-                    // value={todo.do}
+                    defaultValue={todo.do}
                     className="form-control w-75"/>
 
             </li>
