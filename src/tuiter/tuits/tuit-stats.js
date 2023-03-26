@@ -1,4 +1,6 @@
 import React from "react";
+import {useDispatch} from "react-redux";
+import {likeUnlike} from "./tuits-reducer"
 import "../index.css"
 
 const TuitStats = (
@@ -19,6 +21,10 @@ const TuitStats = (
         }
     }
 ) => {
+    const dispatch = useDispatch();
+    const userLikedUnliked = (tuit) => {
+        dispatch(likeUnlike(tuit));
+    }
     return(
         <div className="row mt-2 mb-2">
             <div className="col-3">
@@ -36,7 +42,8 @@ const TuitStats = (
             </div>
 
             <div className="col-3">
-                <a href="#" className="text-secondary wd-hyperlink-no-underline">
+                <a href="#" className="text-secondary wd-hyperlink-no-underline"
+                    onClick={() => userLikedUnliked(tuit)}>
                     {
                         tuit.liked === true ? <i className="fa-solid fa-heart me-1 text-danger"></i> 
                         : <i className="fa-solid fa-heart me-1"></i>
