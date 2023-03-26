@@ -67,7 +67,7 @@ const EditProfileComponent = () => {
             <div className="row">
                 <div className="col-2">
                     <Link to="/tuiter/profile" className="wd-hyperlink-no-underline">
-                        <i className="bi bi-x-lg mt-2 float-start"></i>
+                        <i className="bi bi-x-lg mt-2 float-start text-dark"></i>
                     </Link>
                 </div>
 
