@@ -4,7 +4,7 @@ import PostSummaryList from "../post-summary-list";
 const ExploreComponent = () => {
     return(
         <div>
-            <div class="row ms-0 me-0">
+            <div className="row ms-0 me-0">
                 <div className="col-11 position-relative p-0">
                     <input placeholder="Search Tuiter" className="form-control rounded-pill ps-5 mb-2"/>
                     <i className="fa fa-search position-absolute wd-nudge-up"></i>

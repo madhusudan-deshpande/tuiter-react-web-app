@@ -24,3 +24,6 @@ yarn-error.log*
 
 # IntelliJ Specific
 .idea
+
+# Environment File
+.env
