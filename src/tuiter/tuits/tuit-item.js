@@ -2,7 +2,7 @@ import React from "react";
 import TuitStats from "./tuit-stats";
 import "../index.css";
 import {useDispatch} from "react-redux";
-import {deleteTuit} from "./tuits-reducer"
+import { deleteTuitThunk } from "../../services/tuits-thunks";
 
 const TuitItem = (
 {
@@ -12,7 +12,7 @@ const TuitItem = (
         "userName": "SpaceX",
         "time": "2h",
         "title": "100s of SpaceX Starships land on Mars after a 6 month journey. 1000s of Martian colonists being building Mars Base 1",
-        "avatarIcon": "../../images/spacex.jpeg",
+        "image": "../../images/spacex.jpeg",
         "liked": true,
         "replies": 123,
         "retuits": 432,
@@ -24,15 +24,15 @@ const TuitItem = (
 ) => {
     const dispatch = useDispatch();
     const deleteTuitHandler = (id) => {
-        dispatch(deleteTuit(id));
-      }      
+        dispatch(deleteTuitThunk(id));
+    }      
     return(
         <div className="list-group-item p-0">
 
             <div className="row">
 
                 <div className="col-2">
-                    <img src={`${tuit.avatarIcon}`} className="wd-img rounded-circle ms-2 mt-2"/>
+                    <img src={`${tuit.image}`} className="wd-img rounded-circle ms-2 mt-2"/>
                 </div>
 
                 <div className="col-10 pe-4 pt-1">

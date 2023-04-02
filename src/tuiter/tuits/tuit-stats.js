@@ -1,6 +1,7 @@
 import React from "react";
 import {useDispatch} from "react-redux";
-import {likeUnlike} from "./tuits-reducer"
+import {likeUnlike} from "./tuits-reducer";
+import { updateTuitThunk } from "../../services/tuits-thunks";
 import "../index.css"
 
 const TuitStats = (
@@ -23,7 +24,12 @@ const TuitStats = (
 ) => {
     const dispatch = useDispatch();
     const userLikedUnliked = (tuit) => {
-        dispatch(likeUnlike(tuit));
+        // dispatch(likeUnlike(tuit));
+        dispatch(updateTuitThunk({
+            ...tuit,
+            likes: tuit.liked === true ? tuit.likes - 1 : tuit.likes + 1,
+            liked: !tuit.liked
+        }))
     }
     return(
         <div className="row mt-2 mb-2">
