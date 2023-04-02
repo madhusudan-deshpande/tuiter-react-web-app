@@ -1,7 +1,5 @@
 import axios from 'axios';
-let API_BASE = process.env.REACT_APP_API_BASE;
-API_BASE = "https://tuiter-node-server-app-r57b.onrender.com/api";
-// API_BASE = 'http://localhost:4000/api';
+const API_BASE = process.env.REACT_APP_API_BASE;
 const TUITS_API = `${API_BASE}/tuits`
 
 export const createTuit = async (tuit) => {
